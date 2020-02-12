@@ -1,0 +1,16 @@
+.navegation-nav ul li {
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    padding-right: 10px;
+}
+.navegation-nav-buttom{
+    border-radius: 1px solid green;
+}
+.buttom-inspira{
+    border: 3px solid blue;
+}
+.buttom-inspira h1{
+    display: flex;
+    justify-content: center;
+}
