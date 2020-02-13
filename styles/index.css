@@ -1,0 +1,78 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    margin: 100px 0px 0px 100px;
+}
+
+.col-12 h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 60px;
+}
+
+.mayuscula {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navegation-nav ul li {
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    padding-right: 10px;
+}
+.navegation-nav-buttom{
+    border-radius: 1px solid green;
+}
+.buttom-inspira{
+    border: 3px solid blue;
+}
+.buttom-inspira h1{
+    display: flex;
+    justify-content: center;
+}
+.navigation .navegation-nav .nav-item .nav-link .logo{
+    display: flex;
+    justify-content: start;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover{
+    color: #50FF50;
+}
+
+.btn-primary{
+    background: #50FF50 0% 0% no-repeat padding-box;
+    border-radius: 49px;
+    border: none;
+    color: black;
+    opacity: 1;
+}
+
+.btn-primary:hover{
+    background: black 0% 0% no-repeat padding-box;
+    border-radius: 49px;
+    border: none;
+    color: white;
+    opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel-inner {
+        height: 88vh !important;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu1{
+        display: flex;
+        justify-content: space-between;
+    }
+}
