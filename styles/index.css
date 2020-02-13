@@ -33,6 +33,7 @@ body {
 .buttom-inspira h1{
     display: flex;
     justify-content: center;
+
 }
 .navigation .navegation-nav .nav-item .nav-link .logo{
     display: flex;
