@@ -5,14 +5,20 @@
     padding-right: 10px;
 }
 .card{
-    font-family: ‘Open Sans’, sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+}
+.card-title{
+    text-align: center
+    ;
+
 }
 .navegation-nav-buttom{
     border-radius: 1px solid green;
 }
 .buttom-inspira{
     border: 3px solid blue;
-    font-family: ‘Open Sans’, sans-serif;
+    font-family: ‘Open Sans’, sans-serif;    
 }
 .buttom-inspira h1{
     display: flex;
@@ -86,5 +92,18 @@
         display: flex;
         justify-content: space-between;
     }
-}
+    .mayuscula {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .letraform{
+        display: flex;
+        justify-content:space-between;
+        font-family: 'Covered By Your Grace', cursive;
+        font-size: 25px;
+    }
+    .letratexto{
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
 
+    }
