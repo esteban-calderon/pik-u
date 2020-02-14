@@ -130,3 +130,11 @@ a:hover{
         justify-content: space-between;
     }
 }
+
+.personalizar {
+    color: black;
+}
+
+.personalizar:hover {
+    color: white;
+}
