@@ -27,9 +27,9 @@
             <ul class="navbar-nav mr-auto">
             </ul>
             <div class="nav-item menu1">
-                <a class="nav-link mayuscula" href="index.html">INICIO</a>
-                <a class="nav-link mayuscula" href="views/inspirate.html">INSPIRATE</a>
-                <button type="button" class="btn btn-primary btn-md mayuscula" href="#">LOGIN</button>
+                <a class="nav-link mayuscula" href="#pasos">paso a paso</a>
+                <a class="nav-link mayuscula" href="#portafolio">portafolio</a>
+                <button type="button" class="btn btn-primary btn-md mayuscula" href="#">personalizar</button>
             </div>
         </div>
     </nav>
@@ -73,15 +73,16 @@
         </a>
     </div>
 
-    <section class="container">
+    <section id="portafolio" class="container margenSuperior">
         <div class="row">
             <div class="col-12">
-                <img src="./assets/icono.svg" alt="">
+                <img class="rounded mx-auto d-block" src="./assets/icono.svg" alt="">
             </div>
         </div>
         <div class="row">
             <div class="col-12">
                 <h1>Portafolio</h1>
+                <p class="text-center">Sé parte de está nueva historia.</p>
             </div>
         </div>
         <div class="centrar row">
@@ -95,23 +96,64 @@
                 <img src="./assets/portafolio3.png" alt="..." class="rounded float-left">
             </div>
         </div>
+        <div class="col-12 centrar">
+            <button type="button" class="btn btn-outline-primary mayuscula">personaliza el tuyo</button>
+        </div>
+    </section>
 
-        <br> <br>
 
-        <section class="buttom-inspira">
-            <h1>Personaliza tu Cactus</h1>
-        </section>
+    <section id="pasos" class="container margenSuperior">
+        <div class="row">
+            <div class="col-12">
+                <img class="rounded mx-auto d-block" src="./assets/icono.svg" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>Paso a paso</h1>
+                <p class="text-center">En solo 3 pasos el regalo perfecto</p>
+            </div>
+        </div>
+        <div class="centrar row">
+            <div class="col-md-4">
+                <img src="./assets/paso1.svg" alt="Paso1" class="rounded float-left">
+                <h2 class="tituloCentrado margenMenos">Selecciona el tuyo</h2>
+            </div>
+            <div class="col-md-4">
+                <img src="./assets/paso2.svg" alt="paso2" class="rounded float-left">
+                <h2 class="tituloCentrado margenMenos">Selecciona el tuyo</h2>
+            </div>
+            <div class="col-md-4">
+                <img src="./assets/paso3.svg" alt="paso3" class="rounded float-left">
+                <h2 class="tituloCentrado margenMenos">Selecciona el tuyo</h2>
+            </div>
+        </div>
+        <div class="col-12 centrar">
+            <button type="button" class="btn btn-outline-primary mayuscula">iniciar el mío</button>
+        </div>
+    </section>
 
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
-        <script src="./scripts/index.js"></script>
+    <footer class="container-fluid footer">
+        <div class="row centrar">
+            <div class="col12">
+                <h3 style="text-align: center;">Escríbenos</h3>
+                <h5><a href="mailto:hola@piku.com">hola@piku.com</a></h5>
+                <p style="font-size: 14px; color: gray;">Todos los derechos reservados | Pik_U </p>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="./scripts/index.js"></script>
 </body>
 
 </html>
