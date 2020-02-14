@@ -2,9 +2,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* .container{
-    margin: 100px 0px 0px 0px;
-} */
+a{
+    color: #50FF50;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.margenSuperior{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
 
 .centrar{
     display: flex;
@@ -73,6 +83,38 @@ body {
     border: none;
     color: white;
     opacity: 1;
+}
+
+.btn-outline-primary{
+    background: none;
+    border-radius: 49px;
+    border: solid 2px #50FF50;
+    color: black;
+    opacity: 1;
+}
+.btn-outline-primary:hover{
+    background: black 0% 0% no-repeat padding-box;
+    border-radius: 49px;
+    border: solid 2px black;
+    color: white;
+    opacity: 1;
+}
+
+.tituloCentrado h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.margenMenos {
+    margin-top: 230px;
+    position: absolute;
+    margin-left: 20%;
+}
+
+.footer{
+    background-color: rgb(241, 241, 241);
+    border: none;
+    padding: 5vh;
 }
 
 @media only screen and (min-width: 768px) {
