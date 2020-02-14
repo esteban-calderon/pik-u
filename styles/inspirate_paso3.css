@@ -1,0 +1,37 @@
+
+.text-center img{
+    width: 500px;
+    height: 500px;
+    
+}
+.matera .text-center {
+    display: flex;
+    justify-content: center;
+}
+.box .container .form-control{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    height: 200px;
+    width: 250px;
+}
+#matera {
+    position: absolute;
+    margin-top: 20%;
+    color: white;
+}
+.btn-primary{
+    color: black;
+    background-color: #50FF50;
+    border-color: #50FF50;
+}
