@@ -38,7 +38,8 @@ body {
     border-radius: 1px solid green;
 }
 .buttom-inspira{
-    border: 3px solid blue;
+    border: 3px solid #50FF50;
+    
 }
 .buttom-inspira h1{
     display: flex;
