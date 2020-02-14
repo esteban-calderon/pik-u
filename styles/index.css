@@ -2,15 +2,25 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.container{
-    margin: 100px 0px 0px 100px;
+/* .container{
+    margin: 100px 0px 0px 0px;
+} */
+
+.centrar{
+    display: flex;
+    justify-content: center;
 }
 
-.col-12 h1 {
+.col-12 h1{
     display: flex;
     justify-content: center;
     font-family: 'Covered By Your Grace', cursive;
     font-size: 60px;
+}
+
+.col-12 img{
+    display: flex;
+    justify-content: center;
 }
 
 .mayuscula {
